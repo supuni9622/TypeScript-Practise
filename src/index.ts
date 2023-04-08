@@ -21,3 +21,14 @@ numbersNew[0] = 4;
 
 //Type Type
 let user: [number, string] = [1, 'supuni']
+
+// Enum Type
+const enum Size {
+ Small = 's',
+ Medium = 'm',
+ Large = 'l'
+}
+
+let mySize: Size = Size.Medium
+
+console.log(mySize);
