@@ -3,3 +3,17 @@
 let sales: number = 123_456_789;
 let course: string = 'TypeScript';
 let isComming: boolean = true;
+
+let numbers = [1, 2, 3];
+numbers[4] = 4;
+
+let anyNumbers = [];
+anyNumbers[0] = 1;
+anyNumbers[1] = 3;
+anyNumbers[2] = '5';
+anyNumbers[3] = true
+
+console.log(anyNumbers);
+
+let numbersNew: number[] = [];
+numbersNew[0] = 4;
