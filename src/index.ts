@@ -1,6 +1,5 @@
-console.log('Hello World');
-let age: number = 10;
+// To make code more readble we can seperate large digits using _
 
-if(age < 50)
-    age += 10; 
-    console.log(age);
+let sales: number = 123_456_789;
+let course: string = 'TypeScript';
+let isComming: boolean = true;
