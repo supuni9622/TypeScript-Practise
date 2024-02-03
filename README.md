@@ -44,4 +44,4 @@ This will create a index.js file.Current browsers can't directly compile the Typ
 
 # To execute the javascript code 
 
-node dist/index.js
+`node dist/index.js`
