@@ -40,7 +40,7 @@ This will create a index.js file.Current browsers can't directly compile the Typ
 6. tuple
 7. enum (Best practise to use const key word with enum to generate more optimised code by the compiler)
 
-![Types](image.png)
+<img width="479" alt="image" src="https://github.com/supuni9622/TypeScript-Practise/assets/45679457/27d13fb2-b928-432d-b67e-1cffdd63c62e">
 
 # To execute the javascript code 
 
