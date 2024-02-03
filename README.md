@@ -1,13 +1,26 @@
 # TypeScript-Practise
-This repo is created to learn TypeScript
+This repo is created to learn TypeScript.
 
-# Run Typescript file
+# TypeScript Vs Javascript
+| TypeScript | JavaScript |
+|  ----------- | ----------- |
+| Superset of JS. Which means TS has all the JS features with few other extra features | Every JS file is a valid TS file |
+| Statically typed programming language like Java, C++ and C# | Dynamically typed programming langauage like Python, Ruby |
+| Ideal for medium and large scale projects with team. It's easy to find bugs and refactor. | Ideal for small scale projects because of the flexibility |
 
-tsc index.js
+# Install Typescript globally to access from any folder
+`npm i -g typescript`
+
+# Check the typescript version
+`tsc -v`
+
+# Compile Typescript file
+`tsc index.ts`
+
+This will create a index.js file.Current browsers can't directly compile the TypeScript. So we need to compiple into to javascript first.
 
 # TypeScript Compiler Configuration 
-
-tsc --init
+`tsc --init`
 
 1. It will create the tsconfig.json file. 
 2. Do the neccessary changes 
